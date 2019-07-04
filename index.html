@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Dan Murphy's Data Displayer">
+		<meta name="keywords" content="DATA,ALCOHOL,AUSTRALIA,AUS,AUD,DRINKS,BEER,WINE,SPIRITS">
+		<meta name="author" content="Jordan Richards">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Dan's Data Displayer</title>
+	</head>
+	<body>
+		<div>
+			<h1>Data</h1>
+			<form method="GET" action="index.html">
+				<label for="searchbox">Search: </label>
+				<input type="text" id="searchbox" />
+				<input type="submit" id="search" value="Search" />
+				<input type="reset" id="reset" value="Reset" />
+			</form>
+			<button id="search" value="Refresh">Refresh</button>
+			<div id="data">
+				<p>Loading data...</p>
+				<!-- Include data here through an external file that updates using JS periodically -->
+			</div>
+		</div>
+	</body>
+</html>

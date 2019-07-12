@@ -1,4 +1,5 @@
 // load in the data and periodically refresh it incase there is changes in the database
+// communicate with the database
 
 function sanitize_percent(percent) {
 	if (percent.includes("%")) {

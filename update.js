@@ -1,6 +1,7 @@
 // load in the data and periodically refresh it incase there is changes in the database
 // communicate with the database
 // be able to detect new products to load, page by page
+// use nice code to sanitise the data in the data downloader
 
 function sanitize_percent(percent) {
 	if (percent.includes("%")) {

@@ -3,3 +3,4 @@
 # abide by robots.txt and use the product sitemap
 # have accounts that allow access to more information at once
 # actively check robots.txt
+# meaningfully download data

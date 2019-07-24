@@ -5,3 +5,4 @@
 # actively check robots.txt
 # meaningfully download data
 # reduce potential crash errors
+# consider writing the backend in another language for experience

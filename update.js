@@ -2,6 +2,8 @@
 // communicate with the database
 // be able to detect new products to load, page by page
 // use nice code to sanitise the data in the data downloader
+// don't do calculation client side too much
+// allow partial downloads of the data
 
 function sanitize_percent(percent) {
 	if (percent.includes("%")) {
